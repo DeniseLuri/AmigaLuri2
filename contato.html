@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+ 
+ <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Este é uma página que mostra o contato">
+    <meta name="author" content="Site do Grupo7" >
+    <title> Amiga LURI - contato</title>   
+    <link rel="stylesheet" href="CSSAmigaLuri.css"/>
+    
+    <script>
+     
+      
+
+    function formConfirm(){
+      alert('Seu formulado foi enviado com sucesso! Entraremos em contato em breve.');
+      }
+
+      
+    </script>   
+  </head>
+    <body>
+    <header>
+  
+   <img src="ImagensAmigaLuri\logo01.png" id=logo  alt=" imagem logo"/>
+        
+        <h1> AmigaLURI </h1>
+         
+    </header>
+    
+     <body>
+
+        <nav>
+      <ul>
+        <li><a href="Home.html"> Home </a> </li> 
+        <li><a href= "amigurumi.html"> amigurumi </a> </li>
+        <li><a href="quemsomos.html"> quem somos </a> </li>
+        <li><a href="#" class ='active'> contato </a> </li>
+        
+      </ul>
+    </nav>
+        
+        <main>
+
+ <form name= "form_contato">
+
+  <h2>Entre em contato conosco!</h2>
+
+  <label for= "nome">Nome</label>
+
+  <input type="text" id="nomeid" placeholder="Nome Completo" required />
+  <br></br>
+  <label for= "fone">Telefone</label>
+  <input type="tel" id="foneid" placeholder="(xx)xxxxxxxxx" required />
+  <br></br>
+  <label for= "nome">E-mail</label>
+  <input type="email" id="emailid" placeholder="email@email.com" required/>
+  <br></br>
+  <textarea placeholder= "Deixe sua sugetão/opinião"></textarea>
+  <br></br>
+  <textarea placeholder= "Faça sua ecomenda!"></textarea>
+  <br></br>
+  <input type= "submit" value="Enviar" onclick= 'formConfirm();'/>
+
+  </form>
+        
+    </main>
+  
+   </body>
+
+
+   <footer>
+    <a href="https://www.instagram.com/amigaluri/">
+        <img src="ImagensAmigaLuri\instagramlogo.png" width='50px' alt=" imagem do logo do instagram"/>
+        </a>
+        </br>
+        <p>Copyright</p> 
+  </footer>
+  
+</html>
