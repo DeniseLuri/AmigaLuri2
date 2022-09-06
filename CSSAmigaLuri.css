@@ -123,20 +123,13 @@ main{
 
 }
 
-#divJana{
-	float:right;
-	background-color: #D02C47
-}
 
 #divJoao{
 	float:left;
 	background-color:#ffffff
 	
 }
-#divVic{
-	float:right;
-	background-color: #D02C47
-}
+
 
 .conteudo{
 	height:600px;
